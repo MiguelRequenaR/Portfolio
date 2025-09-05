@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="space-y-4 px-0 lg:px-20">
+      <div className="space-y-4 px-0 lg:pl-20">
         <div className="">
           <h1 className="text-5xl text-center lg:text-left lg:text-[110px] font-bold text-white">
             SOFTWARE <span className="text-primary">ENGINEER</span>
