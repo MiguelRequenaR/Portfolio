@@ -3,9 +3,9 @@
 
 export default function CardSkills() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[200px] gap-4 p-4 mt-15">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-auto gap-4 p-4 mt-15">
       {/* Frontend Technologies  */}
-      <div className="bg-[#c3b1e7] row-span-2 rounded-xl p-4 flex flex-col justify-between">
+      <div className="bg-[#c3b1e7] md:row-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
         <div>
           <h3 className="text-gray-800 text-lg font-bold mb-2">Frontend</h3>
           <div className="space-y-2">
@@ -41,8 +41,6 @@ export default function CardSkills() {
               <div className="bg-white h-2 rounded-full animate-pulse" style={{ width: '90%' }}></div>
             </div>
 
-            
-
             <div className="flex items-center justify-between">
               <span className="text-gray-800 text-sm">TypeScript</span>
               <span className="text-gray-800 text-sm">90%</span>
@@ -62,9 +60,9 @@ export default function CardSkills() {
       </div>
 
       {/* Backend & Databases  */}
-      <div className="bg-[#f480a3] col-span-2 rounded-xl p-4 flex flex-col justify-between">
+      <div className="bg-[#f480a3] md:col-span-2 lg:col-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
         <h3 className="text-gray-800 text-lg font-bold mb-2">Backend & DB</h3>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-gray-800 text-sm">Node.js</span>
@@ -105,7 +103,7 @@ export default function CardSkills() {
       </div>
 
       {/* Diseño UI/UX */}
-      <div className="bg-[#c0cf8a] rounded-xl p-4 flex flex-col justify-center items-center">
+      <div className="bg-[#c0cf8a] rounded-xl p-4 flex flex-col justify-center items-center min-h-[200px]">
         <h3 className="text-gray-800 text-lg font-bold mb-4">Diseño UI/UX</h3>
         <div className="space-y-3 w-full">
           <div className="flex items-center justify-between">
@@ -136,7 +134,7 @@ export default function CardSkills() {
       </div>
 
       {/* Mobile Development */}
-      <div className="bg-[#ffdf70] rounded-xl p-4 flex flex-col justify-center">
+      <div className="bg-[#ffdf70] rounded-xl p-4 flex flex-col justify-center min-h-[200px]">
         <h3 className="text-gray-800 text-lg font-bold mb-4">Mobile</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between">
@@ -161,9 +159,9 @@ export default function CardSkills() {
       </div>
 
       {/* Tools & Frameworks */}
-      <div className="bg-[#f8a375] col-span-2 rounded-xl p-4 flex flex-col justify-between">
-        <h3 className=" text-lg font-bold mb-2 text-gray-800">Tools & Frameworks</h3>
-        <div className="grid grid-cols-4 gap-4">
+      <div className="bg-[#f8a375] md:col-span-2 lg:col-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
+        <h3 className="text-lg font-bold mb-2 text-gray-800">Tools & Frameworks</h3>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[
             { name: 'Git', level: 90 },
             { name: 'Vite', level: 85 },
@@ -198,14 +196,14 @@ export default function CardSkills() {
                   <span className="text-xs font-bold text-gray-800">{tool.level}%</span>
                 </div>
               </div>
-              <span className=" text-sm text-gray-800">{tool.name}</span>
+              <span className="text-sm text-gray-800">{tool.name}</span>
             </div>
           ))}
         </div>
       </div>
 
       {/* Soft Skills */}
-      <div className="bg-[#b7cddb] rounded-xl p-4 flex flex-col justify-center">
+      <div className="bg-[#b7cddb] rounded-xl p-4 flex flex-col justify-center min-h-[200px]">
         <h3 className="text-gray-800 text-lg font-bold mb-4">Soft Skills</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between">

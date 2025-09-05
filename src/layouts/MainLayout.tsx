@@ -6,11 +6,11 @@ export default function MainLayout() {
   return (
     <div className="max-w-6xl mx-auto">
       <NavBar />
-      <div className="flex">
-        <div className="w-1/4 sticky top-4 h-fit">
+      <div className="flex flex-col lg:flex-row mt-0 lg:mt-10">
+        <div className="w-full lg:w-1/4 lg:sticky lg:top-4 lg:h-fit mb-6 lg:mb-0">
           <ProfileCard />
         </div>
-        <main className="w-3/4">
+        <main className="w-full lg:w-3/4">
           <Outlet />
         </main>
       </div>
