@@ -66,18 +66,18 @@ export const projectsData: Project[] = [
   },
   {
     image: project10,
-    title: "Proyecto 10",
-    description: "Descripción del proyecto 10",
+    title: "Tu Techo Ahora",
+    description: "Plataforma web para promocionar propiedades inmobiliarias con panel de administración integrado.",
   },
   {
     image: project11,
-    title: "Proyecto 11",
-    description: "Descripción del proyecto 11",
+    title: "Wild Horse CarWash Mobile",
+    description: "Landing Page para promocionar servicios de limpieza de autos y captar clientes.",
   },
   {
     image: project12,
-    title: "Proyecto 12",
-    description: "Descripción del proyecto 12",
+    title: "Andina Group E.I.R.L.",
+    description: "Landing Page de promoción de servicios generales para el hogar y negocios.",
   }
 ]
 

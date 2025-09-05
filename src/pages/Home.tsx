@@ -60,7 +60,7 @@ export default function Home() {
         {/* Herramientas */}
         <div className="py-10">
           <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
-            HERRAMIENTAS <span className="text-primary">PRINCIPALES</span>
+            TECNOLOGIAS <span className="text-primary">PRINCIPALES</span>
           </h1>
           <CardTools />
         </div>
