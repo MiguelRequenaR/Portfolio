@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 import profileImg from "../assets/profileghibli.png";
 
@@ -16,10 +16,6 @@ export default function ProfileCard() {
     {
       icon: Mail,
       link: "mailto:m.angelrequena20@gmail.com"
-    },
-    {
-      icon: Phone,
-      link: "tel:+51901617809"
     },
     {
       icon: Twitter,

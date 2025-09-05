@@ -5,7 +5,7 @@ export default function CardSkills() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-auto gap-4 p-4 mt-15">
       {/* Frontend Technologies  */}
-      <div className="bg-[#c3b1e7] md:row-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
+      <div className="bg-primary md:row-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
         <div>
           <h3 className="text-gray-800 text-lg font-bold mb-2">Frontend</h3>
           <div className="space-y-2">
@@ -60,7 +60,7 @@ export default function CardSkills() {
       </div>
 
       {/* Backend & Databases  */}
-      <div className="bg-[#f480a3] md:col-span-2 lg:col-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
+      <div className="bg-white md:col-span-2 lg:col-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
         <h3 className="text-gray-800 text-lg font-bold mb-2">Backend & DB</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="space-y-2">
@@ -103,11 +103,11 @@ export default function CardSkills() {
       </div>
 
       {/* Diseño UI/UX */}
-      <div className="bg-[#c0cf8a] rounded-xl p-4 flex flex-col justify-center items-center min-h-[200px]">
-        <h3 className="text-gray-800 text-lg font-bold mb-4">Diseño UI/UX</h3>
+      <div className="bg-[#1c1a19] rounded-xl p-4 flex flex-col justify-center items-center min-h-[200px]">
+        <h3 className="text-white text-lg font-bold mb-4">Diseño UI/UX</h3>
         <div className="space-y-3 w-full">
           <div className="flex items-center justify-between">
-            <span className="text-gray-800 text-sm">TailwindCSS</span>
+            <span className="text-white text-sm">TailwindCSS</span>
             <div className="flex space-x-1">
               {[1, 2, 3, 4, 5].map((i) => (
                 <div key={i} className={`w-3 h-3 rounded-full ${i <= 5 ? 'bg-black' : 'bg-gray-300'}`}></div>
@@ -115,7 +115,7 @@ export default function CardSkills() {
             </div>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-gray-800 text-sm">Figma</span>
+            <span className="text-white text-sm">Figma</span>
             <div className="flex space-x-1">
               {[1, 2, 3, 4, 5].map((i) => (
                 <div key={i} className={`w-3 h-3 rounded-full ${i <= 4 ? 'bg-black' : 'bg-gray-300'}`}></div>
@@ -123,7 +123,7 @@ export default function CardSkills() {
             </div>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-gray-800 text-sm">Ilustrator</span>
+            <span className="text-white text-sm">Ilustrator</span>
             <div className="flex space-x-1">
               {[1, 2, 3, 4, 5].map((i) => (
                 <div key={i} className={`w-3 h-3 rounded-full ${i <= 3 ? 'bg-black' : 'bg-gray-300'}`}></div>
@@ -134,23 +134,23 @@ export default function CardSkills() {
       </div>
 
       {/* Mobile Development */}
-      <div className="bg-[#ffdf70] rounded-xl p-4 flex flex-col justify-center min-h-[200px]">
-        <h3 className="text-gray-800 text-lg font-bold mb-4">Mobile</h3>
+      <div className="bg-[#1c1a19] rounded-xl p-4 flex flex-col justify-center min-h-[200px]">
+        <h3 className="text-white text-lg font-bold mb-4">Mobile</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <span className="text-gray-800 text-sm">React Native</span>
+            <span className="text-white text-sm">React Native</span>
             <div className="relative w-16 h-8 bg-gray-200 rounded-full">
               <div className="absolute top-1 right-1 w-6 h-6 bg-black rounded-full"></div>
             </div>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-gray-800 text-sm">NativeWind</span>
+            <span className="text-white text-sm">NativeWind</span>
             <div className="relative w-16 h-8 bg-gray-200 rounded-full">
               <div className="absolute top-1 right-1 w-6 h-6 bg-black rounded-full"></div>
             </div>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-gray-800 text-sm">TypeScript</span>
+            <span className="text-white text-sm">TypeScript</span>
             <div className="relative w-16 h-8 bg-gray-200 rounded-full">
               <div className="absolute top-1 right-1 w-6 h-6 bg-black rounded-full"></div>
             </div>
@@ -159,13 +159,13 @@ export default function CardSkills() {
       </div>
 
       {/* Tools & Frameworks */}
-      <div className="bg-[#f8a375] md:col-span-2 lg:col-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
+      <div className="bg-primary md:col-span-2 lg:col-span-2 rounded-xl p-4 flex flex-col justify-between min-h-[200px]">
         <h3 className="text-lg font-bold mb-2 text-gray-800">Tools & Frameworks</h3>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[
             { name: 'Git', level: 90 },
             { name: 'Vite', level: 85 },
-            { name: 'Tailwind', level: 95 },
+            { name: 'Tailwind', level: 100 },
             { name: 'Figma', level: 80 }
           ].map((tool) => (
             <div key={tool.name} className="text-center">
@@ -203,14 +203,14 @@ export default function CardSkills() {
       </div>
 
       {/* Soft Skills */}
-      <div className="bg-[#b7cddb] rounded-xl p-4 flex flex-col justify-center min-h-[200px]">
+      <div className="bg-white rounded-xl p-4 flex flex-col justify-center min-h-[200px]">
         <h3 className="text-gray-800 text-lg font-bold mb-4">Soft Skills</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-gray-800 text-sm">Liderazgo</span>
             <div className="flex space-x-1">
               {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className={`w-2 h-2 rounded-full ${i <= 4 ? 'bg-white' : 'bg-gray-400'}`}></div>
+                <div key={i} className={`w-2 h-2 rounded-full ${i <= 4 ? 'bg-gray-800' : 'bg-gray-400'}`}></div>
               ))}
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function CardSkills() {
             <span className="text-gray-800 text-sm">Comunicación</span>
             <div className="flex space-x-1">
               {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className={`w-2 h-2 rounded-full ${i <= 5 ? 'bg-white' : 'bg-gray-400'}`}></div>
+                <div key={i} className={`w-2 h-2 rounded-full ${i <= 5 ? 'bg-gray-800' : 'bg-gray-400'}`}></div>
               ))}
             </div>
           </div>
@@ -226,7 +226,7 @@ export default function CardSkills() {
             <span className="text-gray-800 text-sm">Resolución</span>
             <div className="flex space-x-1">
               {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className={`w-2 h-2 rounded-full ${i <= 4 ? 'bg-white' : 'bg-gray-400'}`}></div>
+                <div key={i} className={`w-2 h-2 rounded-full ${i <= 4 ? 'bg-gray-800' : 'bg-gray-400'}`}></div>
               ))}
             </div>
           </div>

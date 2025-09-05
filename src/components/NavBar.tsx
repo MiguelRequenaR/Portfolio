@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Home, Folder } from "lucide-react";
+import { Home, Folder, Wrench } from "lucide-react";
 
 export default function NavBar() {
 
@@ -13,6 +13,11 @@ export default function NavBar() {
       to: "/projects",
       label: "Proyectos",
       icon: Folder,
+    },
+    {
+      to: "/technologies",
+      label: "Tecnologías",
+      icon: Wrench,
     },
   ]
 

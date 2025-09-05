@@ -2,7 +2,6 @@ import CardSkills from "../components/CardSkills";
 import ExperienceCard from "../components/ExperienceCard";
 import CardTools from "../components/CardTools";
 import ProjectCard from "../components/ProjectCard";
-import FormContact from "../components/FormContact";
 
 export default function Home() {
 
@@ -63,13 +62,6 @@ export default function Home() {
             TECNOLOGIAS <span className="text-primary">PRINCIPALES</span>
           </h1>
           <CardTools />
-        </div>
-        {/* Contacto */}
-        <div className="py-10">
-          <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
-            TRABAJEMOS <span className="text-primary">JUNTOS</span>
-          </h1>
-          <FormContact />
         </div>
       </div>
     </>

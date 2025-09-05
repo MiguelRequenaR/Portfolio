@@ -60,9 +60,9 @@ export default function FormContact() {
 
         <button
           type="submit"
-          className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
+          className="w-full bg-primary hover:bg-transparent hover:border-primary border border-transparent hover:border text-white hover:text-primary font-bold py-3 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
         >
-          Enviar
+          Solicitar presupuesto
         </button>
       </form>
     </div>
