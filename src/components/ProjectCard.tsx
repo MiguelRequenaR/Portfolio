@@ -14,9 +14,9 @@ export default function ProjectCard({limit}: ProjectCardProps) {
       {projects.map((project) => (
         <div
           key={project.title}
-          className="flex items-center p-5 hover:bg-[#1c1a19] rounded-xl transition-all duration-300 ease-in-out cursor-pointer gap-5 group"
+          className="flex flex-col lg:flex-row items-start lg:items-center p-5 hover:bg-[#1c1a19] rounded-xl transition-all duration-300 ease-in-out cursor-pointer gap-5 group"
         >
-          <img src={project.image} alt={project.title} className="w-40 lg:w-52 rounded-xl" />
+          <img src={project.image} alt={project.title} className="w-full lg:w-52 rounded-xl mb-4 lg:mb-0" />
           <div className="space-y-2 text-white flex-1">
             <h3 className="text-xl lg:text-2xl font-bold">{project.title}</h3>
             <p className="text-sm lg:text-base">{project.description}</p>
