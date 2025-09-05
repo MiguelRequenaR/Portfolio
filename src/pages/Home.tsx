@@ -1,4 +1,8 @@
 import CardSkills from "../components/CardSkills";
+import ExperienceCard from "../components/ExperienceCard";
+import CardTools from "../components/CardTools";
+import ProjectCard from "../components/ProjectCard";
+import FormContact from "../components/FormContact";
 
 export default function Home() {
 
@@ -27,7 +31,7 @@ export default function Home() {
           <p
             className="text-lg text-white text-center lg:text-left mt-10"
           >
-            Hola, soy Miguel, soy una persona apacionada por la tecnología y el desarrollo de software.
+            Soy un programador con una sólida formación y experiencia, en el ámbito del Desarrollo Web y Mobile.
           </p>
           <div className="flex gap-10 mt-15 mx-auto flex-col lg:flex-row">
             {experience.map((item) => (
@@ -40,10 +44,32 @@ export default function Home() {
         </div>
         {/* Cards Skills */}
         <CardSkills />
-        <div className="mt-15">
+        <div className="py-10">
           <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
             PROYECTOS <span className="text-primary">RECIENTES</span>
           </h1>
+          <ProjectCard limit={3} />
+        </div>
+        {/* Experiencia */}
+        <div className="py-10">
+          <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
+            +4 AÑOS DE <span className="text-primary">EXPERIENCIA</span>
+          </h1>
+          <ExperienceCard />
+        </div>
+        {/* Herramientas */}
+        <div className="py-10">
+          <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
+            HERRAMIENTAS <span className="text-primary">PRINCIPALES</span>
+          </h1>
+          <CardTools />
+        </div>
+        {/* Contacto */}
+        <div className="py-10">
+          <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
+            TRABAJEMOS <span className="text-primary">JUNTOS</span>
+          </h1>
+          <FormContact />
         </div>
       </div>
     </>
