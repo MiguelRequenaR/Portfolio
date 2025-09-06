@@ -24,13 +24,13 @@ export default function ProfileCard() {
   ]
 
   return (
-    <div className="p-4 lg:p-0">
+    <div className="p-4 lg:p-0" data-aos="fade-up">
       <div className="bg-white rounded-xl space-y-4">
         <img src={profileImg} alt="" className="w-full h-[300px] lg:h-full  object-cover rounded-4xl p-2" />
         <div className="p-4 space-y-2">
-          <h2 className="text-3xl font-bold">Miguel Requena</h2>
-          <p className="text-sm">Hola, soy Miguel, programador apacionado por la tecnología y el desarrollo de software.</p>
-          <div className="flex items-center justify-center">
+          <h2 className="text-3xl font-bold" data-aos="fade-up" data-aos-delay="200">Miguel Requena</h2>
+          <p className="text-sm" data-aos="fade-up" data-aos-delay="300">Hola, soy Miguel, programador apacionado por la tecnología y el desarrollo de software.</p>
+          <div className="flex items-center justify-center" data-aos="fade-up" data-aos-delay="400">
             {socialMedia.map((item) => (
               <Link to={item.link} className="hover:bg-primary text-primary transition-colors duration-300 ease-in-out cursor-pointer p-2 hover:text-white rounded-full" key={item.link}>
                 <item.icon />

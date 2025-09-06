@@ -15,7 +15,7 @@ export default function MainLayout() {
         <main className="w-full lg:w-3/4">
           <Outlet />
           <div className="pl-0 lg:pl-20 py-20">
-            <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white">
+            <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white" data-aos="fade-down">
               TRABAJEMOS <span className="text-primary">JUNTOS</span>
             </h1>
             <FormContact />

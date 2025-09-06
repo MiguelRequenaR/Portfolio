@@ -35,7 +35,7 @@ export default function ProjectDetail() {
           Volver a proyectos
         </Link>
 
-        <div className="flex flex-col lg:flex-row gap-6">
+        <div className="flex flex-col lg:flex-row gap-6" data-aos="fade-up">
           <div className="flex-1">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">
               {project.title}
@@ -59,7 +59,7 @@ export default function ProjectDetail() {
       </div>
 
       {/* Project Image */}
-      <div className="mb-12">
+      <div className="mb-12" data-aos="fade-up" data-aos-delay="100">
         <img
           src={project.image}
           alt={project.title}
@@ -73,6 +73,7 @@ export default function ProjectDetail() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-colors"
+            data-aos="fade-up" data-aos-delay="200"
           >
             <ExternalLink className="w-4 h-4" />
             Ver proyecto
@@ -84,6 +85,7 @@ export default function ProjectDetail() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-colors"
+            data-aos="fade-up" data-aos-delay="300"
           >
             <Github className="w-4 h-4" />
             Código fuente
@@ -92,7 +94,7 @@ export default function ProjectDetail() {
       </div>
 
       {/* Project Details */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8" data-aos="fade-up">
         {/* Main Content */}
         <div className="lg:col-span-2 space-y-8">
           <div>
@@ -116,7 +118,7 @@ export default function ProjectDetail() {
         </div>
 
         {/* Sidebar */}
-        <div className="space-y-6">
+        <div className="space-y-6" data-aos="fade-up" data-aos-delay="100">
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Tecnologías utilizadas</h3>
             <div className="flex flex-wrap gap-2">
