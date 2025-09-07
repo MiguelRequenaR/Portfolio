@@ -2,6 +2,7 @@ import CardSkills from "../components/CardSkills";
 import ExperienceCard from "../components/ExperienceCard";
 import CardTools from "../components/CardTools";
 import ProjectCard from "../components/ProjectCard";
+import GraphicGH from "../components/GraphicGH";
 
 export default function Home() {
 
@@ -63,6 +64,13 @@ export default function Home() {
             TECNOLOGIAS <span className="text-primary">PRINCIPALES</span>
           </h1>
           <CardTools />
+        </div>
+        {/* Gráfico de Contribuciones de Github */}
+        <div className="py-10">
+          <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white pb-10" data-aos="fade-down">
+            GRÁFICO DE <span className="text-primary">GITHUB</span>
+          </h1>
+          <GraphicGH />
         </div>
       </div>
     </>
