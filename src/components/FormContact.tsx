@@ -1,9 +1,38 @@
-
+import { useState } from "react";
+import { sendMessageWhatsapp } from "../utils/whatsapp";
 
 export default function FormContact() {
+
+  const [formData, setFormData] = useState({
+    nombre: "",
+    email: "",
+    presupuesto: "",
+    mensaje: "",
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    })
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    sendMessageWhatsapp(formData);
+
+    setFormData({
+      nombre: "",
+      email: "",
+      presupuesto: "",
+      mensaje: "",
+    })
+  }
+
   return (
     <div className=" mx-auto p-6" data-aos="fade-up">
-      <form className="space-y-6">
+      <form className="space-y-6" onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-2">
             <label className="block text-[#E0E0E0] text-sm font-medium">
@@ -11,6 +40,9 @@ export default function FormContact() {
             </label>
             <input
               type="text"
+              name="nombre"
+              value={formData.nombre}
+              onChange={handleChange}
               placeholder="Nombre"
               className="w-full px-4 py-3 bg-[#353334] rounded-lg text-[#E0E0E0] placeholder-gray-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
             />
@@ -21,6 +53,9 @@ export default function FormContact() {
             </label>
             <input
               type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
               placeholder="email@email.com"
               className="w-full px-4 py-3 bg-[#353334] rounded-lg text-[#E0E0E0] placeholder-gray-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
             />
@@ -32,7 +67,11 @@ export default function FormContact() {
             Presupuesto
           </label>
           <div className="relative">
-            <select className="w-full px-4 py-3 bg-[#353334] rounded-lg text-[#E0E0E0] focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary appearance-none cursor-pointer">
+            <select 
+              name="presupuesto" 
+              value={formData.presupuesto} 
+              onChange={handleChange} 
+              className="w-full px-4 py-3 bg-[#353334] rounded-lg text-[#E0E0E0] focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary appearance-none cursor-pointer">
               <option value="" className="text-gray-400">Seleccionar...</option>
               <option value="1000-5000" className="bg-[#353334]">S/.400 - S/.600</option>
               <option value="5000-10000" className="bg-[#353334]">S/.600 - S/.800</option>
@@ -52,6 +91,9 @@ export default function FormContact() {
             Mensaje
           </label>
           <textarea
+            name="mensaje"
+            value={formData.mensaje}
+            onChange={handleChange}
             placeholder="Mensaje"
             rows={4}
             className="w-full px-4 py-3 bg-[#353334]  rounded-lg text-[#E0E0E0] placeholder-gray-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary resize-y"
