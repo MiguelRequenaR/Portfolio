@@ -11,7 +11,7 @@ export default function ProjectCard({limit}: ProjectCardProps) {
   const projects = limit ? projectsData.slice(-limit) : projectsData;
 
   return (
-    <div className="" data-aos="fade-up">
+    <div className="pt-10" data-aos="fade-up">
       {projects.map((project) => (
         <Link
           key={project.id}
