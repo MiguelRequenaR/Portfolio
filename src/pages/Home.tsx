@@ -59,7 +59,7 @@ export default function Home() {
           <ExperienceCard />
         </div>
         {/* Herramientas */}
-        <div className="py-10">
+        <div className="pb-10">
           <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-bold text-white" data-aos="fade-down">
             TECNOLOGIAS <span className="text-primary">PRINCIPALES</span>
           </h1>
