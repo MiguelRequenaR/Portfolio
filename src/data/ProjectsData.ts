@@ -7,6 +7,7 @@ import project9 from "../assets/project9.png"
 import project10 from "../assets/project10.png"
 import project11 from "../assets/project11.png"
 import project12 from "../assets/project12.png"
+import project13 from "../assets/project13.png"
 
 export interface Project {
   id: string;
@@ -197,8 +198,29 @@ export const projectsData: Project[] = [
     ],
     liveUrl: "https://www.andinagroup.org/",
     githubUrl: "https://github.com/kralion/andina",
-    year: 2024,
+    year: 2025,
     time: "7 días",
+    category: "Landing Page"
+  },
+  {
+    id: "cp-360°",
+    image: project13,
+    title: "Sistema CP-360°",
+    description: "Landing Page para promocionar el sistema CP-360°.",
+    longDescription: "Sistema CP-360° es una plataforma web para la gestión de proyectos de construcción. La landing page fue desarrollada con el propósito de promocionar dicho sistema y atraer clientes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    technologies: ["Astro", "Tailwind CSS", "Vercel", "AOS"],
+    features: [
+      "Sección de Inicio",
+      "Sección de Servicios",
+      "Sección de Características",
+      "Sección de Paquetes",
+      "Sección de Aliados",
+      "Sección de Contacto",
+    ],
+    liveUrl: "https://cp360-landing.abccostos.com/",
+    githubUrl: "https://github.com/Grobles-Inc/landing-cp360",
+    year: 2025,
+    time: "5 días",
     category: "Landing Page"
   }
 ]
