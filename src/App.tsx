@@ -4,11 +4,13 @@ import HomePage from "./pages/Home"
 import ProjectsPage from "./pages/Projects"
 import TechnologyPage from "./pages/Technology"
 import ProjectDetail from "./components/ProjectDetail"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />

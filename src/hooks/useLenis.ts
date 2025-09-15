@@ -1,6 +1,12 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
 
+declare global {
+  interface Window {
+    __lenis: Lenis | null;
+  }
+}
+
 export const useLenis = (targetElement?: HTMLElement | string) => {
   useEffect(() => {
     let lenis: Lenis | null = null;
@@ -28,6 +34,8 @@ export const useLenis = (targetElement?: HTMLElement | string) => {
     }
 
     if (lenis) {
+
+      window.__lenis = lenis;
       function raf(time: number) {
         lenis!.raf(time);
         requestAnimationFrame(raf);
@@ -37,6 +45,9 @@ export const useLenis = (targetElement?: HTMLElement | string) => {
 
       return () => {
         lenis!.destroy();
+        if(window.__lenis === lenis) {
+          window.__lenis = null;
+        }
       };
     }
   }, [targetElement]);

@@ -3,6 +3,8 @@ import ExperienceCard from "../components/ExperienceCard";
 import CardTools from "../components/CardTools";
 import ProjectCard from "../components/ProjectCard";
 import GraphicGH from "../components/GraphicGH";
+import { MoveUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -50,6 +52,15 @@ export default function Home() {
             PROYECTOS <span className="text-primary">RECIENTES</span>
           </h1>
           <ProjectCard limit={3} />
+          <Link 
+            to="/projects" 
+            className="text-primary hover:text-primary/80 border border-transparent hover:border-primary transition-all duration-700 flex items-center gap-2 mt-10 ml-10 p-4 rounded-xl uppercase font-bold group w-fit"
+          >
+            Ver todos los proyectos
+            <MoveUpRight 
+              className="w-5 h-5 transition-transform duration-500 group-hover:rotate-[360deg]" 
+            />
+          </Link>
         </div>
         {/* Experiencia */}
         <div className="py-10">

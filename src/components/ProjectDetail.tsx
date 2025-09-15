@@ -72,7 +72,7 @@ export default function ProjectDetail() {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-colors"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold"
             data-aos="fade-up" data-aos-delay="200"
           >
             <ExternalLink className="w-4 h-4" />
@@ -125,7 +125,7 @@ export default function ProjectDetail() {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-white text-primary px-3 py-1 rounded-full text-sm"
+                  className="bg-white text-primary font-bold px-3 py-1 rounded-full text-sm"
                 >
                   {tech}
                 </span>
