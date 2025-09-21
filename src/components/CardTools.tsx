@@ -15,8 +15,14 @@ const herramientas = [
   {
     nombre: "Tailwind CSS",
     descripcion: "Framework de estilos utilitario",
-    imagen: "https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png",
+    imagen: "https://images.seeklogo.com/logo-png/35/1/tailwind-css-logo-png_seeklogo-354675.png",
     alt: "Tailwind CSS"
+  },
+  {
+    nombre: "React Native",
+    descripcion: "Herramienta de desarrollo móvil",
+    imagen: "https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png",
+    alt: "React"
   },
   {
     nombre: "Node.js",
@@ -27,7 +33,7 @@ const herramientas = [
   {
     nombre: "Supabase",
     descripcion: "Base de datos",
-    imagen: "https://img.icons8.com/?size=48&id=sH0rW2TvYdr9&format=png",
+    imagen: "https://img.icons8.com/color/512/supabase.png",
     alt: "Supabase"
   },
   {
@@ -35,6 +41,12 @@ const herramientas = [
     descripcion: "Control de versiones",
     imagen: "https://img.icons8.com/?size=80&id=20906&format=png",
     alt: "Git"
+  },
+  {
+    nombre: "Framer",
+    descripcion: "Herramienta de diseño de interfaces",
+    imagen: "https://framerusercontent.com/images/TvJ9grdPgk3sRz6T6XwkpBrFr4k.png?scale-down-to=512&width=1024&height=1024",
+    alt: "Framer"
   }
 ];
 
@@ -46,7 +58,7 @@ export default function CardTools() {
           key={herramienta.nombre}
           className="flex items-center hover:bg-[#1c1a19] rounded-xl p-5 transition-all duration-300 ease-in-out cursor-pointer gap-5 group"
         >
-          <img src={herramienta.imagen} alt={herramienta.alt} className="w-16 h-16" />
+          <img src={herramienta.imagen} alt={herramienta.alt} className="w-16 h-16 rounded-xl" />
           <div>
             <h4 className="text-white text-2xl font-bold">{herramienta.nombre}</h4>
             <span className="text-gray-500">{herramienta.descripcion}</span>
