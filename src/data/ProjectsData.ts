@@ -8,6 +8,7 @@ import project10 from "../assets/project10.png"
 import project11 from "../assets/project11.png"
 import project12 from "../assets/project12.png"
 import project13 from "../assets/project13.png"
+import project14 from "../assets/project14.png"
 
 export interface Project {
   id: string;
@@ -221,6 +222,25 @@ export const projectsData: Project[] = [
     githubUrl: "https://github.com/Grobles-Inc/landing-cp360",
     year: 2025,
     time: "5 días",
+    category: "Landing Page"
+  },
+  {
+    id: "accessio",
+    image: project14,
+    title: "Accessio",
+    description: "Landing Page para promocionar el sistema Accessio.",
+    longDescription: "Accessio es una plataforma web que permite gestionar y comercializar cuentas de las principales plataformas de streaming. El sistema incluye herramientas de administración, seguimiento de uso y un marketplace integrado para la venta de cuentas.",
+    technologies: ["Framer", "Framer Motion", "Lenis"],
+    features: [
+      "Sección de Inicio",
+      "Sección de Beneficios",
+      "Sección de Características",
+      "Sección de Precios",
+    ],
+    liveUrl: "https://accesio.framer.website",
+    githubUrl: "https://github.com/Grobles-Inc/accessio",
+    year: 2025,
+    time: "20 días",
     category: "Landing Page"
   }
 ]

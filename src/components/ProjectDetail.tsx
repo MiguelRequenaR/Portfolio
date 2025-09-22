@@ -9,14 +9,16 @@ export default function ProjectDetail() {
 
   if (!project) {
     return (
-      <div className="min-h-screen flex items-center justify-center px-0 lg:pl-20">
+      <div className="min-h-screen flex px-0 lg:pl-20">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">Proyecto no encontrado</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">El proyecto no Existe</h1>
+          <p className="text-gray-500 mb-6 p-10">El proyecto que estás buscando no existe. Por favor, revisa la URL o regresa a la página de proyectos.</p>
           <Link
             to="/projects"
-            className="text-primary hover:text-primary/80 transition-colors"
+            className="inline-flex items-center gap-2 text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-all duration-500 mb-6"
           >
-            ← Volver a proyectos
+            <ArrowLeft className="w-4 h-4" />
+            Volver a proyectos
           </Link>
         </div>
       </div>
@@ -29,7 +31,7 @@ export default function ProjectDetail() {
       <div className="mb-8">
         <Link
           to="/projects"
-          className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors mb-6"
+          className="inline-flex items-center gap-2 text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-all duration-500 mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
           Volver a proyectos
