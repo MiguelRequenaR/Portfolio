@@ -65,7 +65,7 @@ export default function Home() {
         {/* Experiencia */}
         <div className="py-10">
           <h1 className="text-5xl text-center lg:text-left lg:text-[90px] font-black  text-white" data-aos="fade-down">
-            +4 AÑOS DE <span className="text-primary">EXPERIENCIA</span>
+            +3 AÑOS DE <span className="text-primary">EXPERIENCIA</span>
           </h1>
           <ExperienceCard />
         </div>

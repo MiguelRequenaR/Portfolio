@@ -5,7 +5,7 @@ export default function ExperienceCard() {
     {
       title: "Desarrollador Web Freelance",
       description: "He trabajado como freelance en más de 10 proyectos para pequeñas empresas y clientes independientes, desarrollando desde sitios web corporativos hasta aplicaciones web de mayor complejidad. Mi prioridad ha sido siempre entregar soluciones eficientes, escalables y fáciles de mantener, asegurando además una comunicación fluida y profesional durante cada etapa del proyecto.",
-      date: "Enero 2021 - Actualidad"
+      date: "Enero 2023 - Actualidad"
     },
     {
       title: "Desarrollador Frontend - Grobles",
