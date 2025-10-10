@@ -15,7 +15,7 @@ const herramientas = [
   {
     nombre: "Tailwind CSS",
     descripcion: "Framework de estilos utilitario",
-    imagen: "https://images.seeklogo.com/logo-png/35/1/tailwind-css-logo-png_seeklogo-354675.png",
+    imagen: "https://img.icons8.com/?size=1200&id=WoopfRcDj3RF&format=jpg",
     alt: "Tailwind CSS"
   },
   {

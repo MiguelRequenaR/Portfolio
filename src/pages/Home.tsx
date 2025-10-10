@@ -10,7 +10,7 @@ export default function Home() {
 
   const experience = [
     {
-      number: "+4",
+      number: "+3",
       label: "años de experiencia"
     },
     {
