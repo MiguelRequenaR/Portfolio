@@ -14,7 +14,7 @@ export default function CardSkills() {
               <span className="text-gray-800 text-sm">100%</span>
             </div>
             <div className="w-full bg-gray-300 rounded-full h-2">
-              <div className="bg-white h-2 rounded-full animate-pulse" style={{ width: '100%' }}></div>
+              <div className="bg-gray-800 h-2 rounded-full" style={{ width: '100%' }}></div>
             </div>
 
             <div className="flex items-center justify-between">
@@ -22,7 +22,7 @@ export default function CardSkills() {
               <span className="text-gray-800 text-sm">95%</span>
             </div>
             <div className="w-full bg-gray-300 rounded-full h-2">
-              <div className="bg-white h-2 rounded-full animate-pulse" style={{ width: '95%' }}></div>
+              <div className="bg-gray-800 h-2 rounded-full"  style={{ width: '95%' }}></div>
             </div>
 
             <div className="flex items-center justify-between">
@@ -30,7 +30,7 @@ export default function CardSkills() {
               <span className="text-gray-800 text-sm">95%</span>
             </div>
             <div className="w-full bg-gray-300 rounded-full h-2">
-              <div className="bg-white h-2 rounded-full animate-pulse" style={{ width: '95%' }}></div>
+              <div className="bg-gray-800 h-2 rounded-full" style={{ width: '95%' }}></div>
             </div>
 
             <div className="flex items-center justify-between">
@@ -38,7 +38,7 @@ export default function CardSkills() {
               <span className="text-gray-800 text-sm">90%</span>
             </div>
             <div className="w-full bg-gray-300 rounded-full h-2">
-              <div className="bg-white h-2 rounded-full animate-pulse" style={{ width: '90%' }}></div>
+              <div className="bg-gray-800 h-2 rounded-full" style={{ width: '90%' }}></div>
             </div>
 
             <div className="flex items-center justify-between">
@@ -46,14 +46,14 @@ export default function CardSkills() {
               <span className="text-gray-800 text-sm">90%</span>
             </div>
             <div className="w-full bg-gray-300 rounded-full h-2">
-              <div className="bg-white h-2 rounded-full" style={{ width: '90%' }}></div>
+              <div className="bg-gray-800 h-2 rounded-full" style={{ width: '90%' }}></div>
             </div>
             <div className="flex items-center justify-between">
               <span className="text-gray-800 text-sm">Next.js</span>
               <span className="text-gray-800 text-sm">85%</span>
             </div>
             <div className="w-full bg-gray-300 rounded-full h-2">
-              <div className="bg-white h-2 rounded-full" style={{ width: '85%' }}></div>
+              <div className="bg-gray-800 h-2 rounded-full" style={{ width: '85%' }}></div>
             </div>
           </div>
         </div>
