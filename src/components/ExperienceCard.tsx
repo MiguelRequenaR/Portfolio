@@ -14,7 +14,7 @@ export default function ExperienceCard() {
     },
     {
       title: "Desarrollador de Aplicaciones Móviles - Grobles",
-      description: "Desarrollé aplicaciones móviles publicadas en Play Store, incluyendo soluciones para gestión de pedidos en restaurantes y control de gastos personales. Mi enfoque se ha orientado en crear productos intuitivos, con un diseño atractivo y un rendimiento estable, utilizando tecnologías como React Native y Expo. Estas aplicaciones han pasado por fases de pruebas con usuarios reales, lo que me permitió optimizarlas según sus necesidades.",
+      description: "Formé parte del equipo de desarrollo de aplicaciones móviles en Grobles, donde contribuí a la creación de soluciones innovadoras para diversos clientes. Utilicé tecnologías como React Native y Expo para desarrollar aplicaciones móviles publicadas en Play Store, enfocándome en la creación de productos intuitivos, con un diseño atractivo y un rendimiento estable. Estas aplicaciones han pasado por fases de pruebas con usuarios reales, lo que me permitió optimizarlas según sus necesidades y mejorar su funcionalidad.",
       date: "Marzo 2024 - Enero 2025"
     }
   ]
