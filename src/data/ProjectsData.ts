@@ -9,6 +9,7 @@ import project11 from "../assets/project11.png"
 import project12 from "../assets/project12.png"
 import project13 from "../assets/project13.png"
 import project14 from "../assets/project14.png"
+import project15 from "../assets/project15.png"
 
 export interface Project {
   id: string;
@@ -241,6 +242,24 @@ export const projectsData: Project[] = [
     githubUrl: "https://github.com/Grobles-Inc/accessio",
     year: 2025,
     time: "20 días",
+    category: "Landing Page"
+  },
+  {
+    id: "grobles-store",
+    image: project15,
+    title: "Grobles Store",
+    description: "Landing Page para promocionar el sistema de comercio de Grobles Studio.",
+    longDescription: "Grobles Store es una plataforma web para la promoción de venta de sitios web y sistemas. La landing page fue desarrollada con el propósito de promocionar dicho sistema y atraer clientes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    technologies: ["React", "Tailwind CSS", "Lenis", "AOS", "Vercel"],
+    features: [
+      "Sección de Inicio",
+      "Sección de Nosotros",
+      "Sección de Templates"
+    ],
+    liveUrl: "https://grobles-store.vercel.app/",
+    githubUrl: "https://github.com/MiguelRequenaR/grobles-store",
+    year: 2025,
+    time: "3 días",
     category: "Landing Page"
   }
 ]
