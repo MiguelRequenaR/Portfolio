@@ -68,17 +68,17 @@ export default function ProjectDetail() {
           className="w-full rounded-2xl shadow-2xl"
         />
       </div>
-      <div className="flex gap-4 pb-10">
+      <div className="flex gap-4 pb-10 justify-between">
         {project.liveUrl && (
           <a
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-lg uppercase"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-sm md:text-lg uppercase"
             data-aos="fade-up" data-aos-delay="200"
           >
             <ExternalLink className="w-4 h-4" />
-            Ver proyecto
+              Ver Proyecto
           </a>
         )}
         {project.githubUrl && (
@@ -86,11 +86,11 @@ export default function ProjectDetail() {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-lg uppercase"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-sm md:text-lg uppercase"
             data-aos="fade-up" data-aos-delay="300"
           >
             <Github className="w-4 h-4" />
-            Código fuente
+              Ver Código
           </a>
         )}
       </div>
