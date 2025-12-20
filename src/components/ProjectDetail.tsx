@@ -31,7 +31,7 @@ export default function ProjectDetail() {
       <div className="mb-8">
         <Link
           to="/projects"
-          className="inline-flex items-center gap-2 text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-all duration-500 mb-6"
+          className="inline-flex items-center gap-2 text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-all duration-500 mb-6 text-lg"
         >
           <ArrowLeft className="w-4 h-4" />
           Volver a proyectos
@@ -47,11 +47,11 @@ export default function ProjectDetail() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-6">
-              <div className="flex items-center gap-2 text-gray-300">
+              <div className="flex items-center gap-2 text-gray-300 text-lg">
                 <Calendar className="w-4 h-4" />
                 <span>{project.year}</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-300">
+              <div className="flex items-center gap-2 text-gray-300 text-lg">
                 <Tag className="w-4 h-4" />
                 <span>{project.category}</span>
               </div>
@@ -74,7 +74,7 @@ export default function ProjectDetail() {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-lg uppercase"
             data-aos="fade-up" data-aos-delay="200"
           >
             <ExternalLink className="w-4 h-4" />
@@ -86,7 +86,7 @@ export default function ProjectDetail() {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold transition-colors"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-lg uppercase"
             data-aos="fade-up" data-aos-delay="300"
           >
             <Github className="w-4 h-4" />
@@ -101,7 +101,7 @@ export default function ProjectDetail() {
         <div className="lg:col-span-2 space-y-8">
           <div>
             <h2 className="text-3xl font-bold text-white mb-4">Sobre el proyecto</h2>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-300 leading-relaxed text-lg">
               {project.longDescription}
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function ProjectDetail() {
             <h2 className="text-3xl font-bold text-white mb-4">Características principales</h2>
             <ul className="space-y-3">
               {project.features.map((feature, index) => (
-                <li key={index} className="flex items-start gap-3">
+                <li key={index} className="flex items-start gap-3 text-lg">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-300">{feature}</span>
                 </li>
@@ -127,7 +127,7 @@ export default function ProjectDetail() {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-white text-primary font-bold px-3 py-1 rounded-full text-sm"
+                  className="bg-white text-primary font-bold px-3 py-1 rounded-full text-lg"
                 >
                   {tech}
                 </span>
@@ -139,16 +139,16 @@ export default function ProjectDetail() {
             <h3 className="text-xl font-bold text-white mb-4">Información del proyecto</h3>
             <div className="space-y-3">
               <div>
-                <span className="text-gray-400">Año:</span>
-                <span className="text-white ml-2">{project.year}</span>
+                <span className="text-gray-400 text-lg">Año:</span>
+                <span className="text-white ml-2 text-lg">{project.year}</span>
               </div>
               <div>
-                <span className="text-gray-400">Categoría:</span>
-                <span className="text-white ml-2">{project.category}</span>
+                <span className="text-gray-400 text-lg">Categoría:</span>
+                <span className="text-white ml-2 text-lg">{project.category}</span>
               </div>
               <div>
-                <span className="text-gray-400">Tiempo:</span>
-                <span className="text-white ml-2">{project.time}</span>
+                <span className="text-gray-400 text-lg">Tiempo:</span>
+                <span className="text-white ml-2 text-lg">{project.time}</span>
               </div>
             </div>
           </div>

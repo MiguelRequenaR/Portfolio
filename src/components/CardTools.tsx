@@ -61,7 +61,7 @@ export default function CardTools() {
           <img src={herramienta.imagen} alt={herramienta.alt} className="w-16 h-16 rounded-xl" />
           <div>
             <h4 className="text-white text-2xl font-bold">{herramienta.nombre}</h4>
-            <span className="text-gray-500">{herramienta.descripcion}</span>
+            <span className="text-gray-500 text-lg">{herramienta.descripcion}</span>
           </div>
         </div>
       ))}

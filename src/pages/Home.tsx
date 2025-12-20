@@ -31,15 +31,15 @@ export default function Home() {
             SOFTWARE <span className="text-primary">ENGINEER</span>
           </h1>
           <p
-            className="text-lg text-white text-center lg:text-left mt-10"
+            className="text-xl text-white text-center lg:text-left mt-10"
           >
-            Soy un programador con una sólida formación y experiencia, en el ámbito del Desarrollo Web y Mobile.
+            Desarrollador FrontEnd con experiencia en el ciclo completo de desarrollos de soluciones digitales. Especializado en <span className="font-bold text-primary uppercase">TypeScript, VueJS, React, React Native, Vite, JavaScript,</span> para la implementación de interfaces responsivas e intuitivas.
           </p>
           <div className="flex gap-10 mt-15 mx-auto flex-col lg:flex-row">
             {experience.map((item) => (
               <div className="flex flex-col items-center" key={item.label}>
                 <span className="text-5xl lg:text-[70px] font-bold text-primary">{item.number}</span>
-                <span className="text-lg text-white">{item.label}</span>
+                <span className="text-xl text-white">{item.label}</span>
               </div>
             ))}
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
           <ProjectCard limit={3} />
           <Link 
             to="/projects" 
-            className="text-primary hover:text-primary/80 border border-transparent hover:border-primary transition-all duration-700 flex items-center gap-2 mt-10 ml-10 p-4 rounded-xl uppercase font-bold group w-fit"
+            className="text-primary hover:text-primary/80 border border-transparent hover:border-primary transition-all duration-700 text-lg flex items-center gap-2 mt-10 ml-10 p-4 rounded-xl uppercase font-bold group w-fit"
           >
             Ver todos los proyectos
             <MoveUpRight 
