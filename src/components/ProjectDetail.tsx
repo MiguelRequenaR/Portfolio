@@ -68,14 +68,13 @@ export default function ProjectDetail() {
           className="w-full rounded-2xl shadow-2xl"
         />
       </div>
-      <div className="flex gap-4 pb-10 justify-between">
+      <div className="flex gap-4 pb-10" data-aos="fade-up" >
         {project.liveUrl && (
           <a
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-sm md:text-lg uppercase"
-            data-aos="fade-up" data-aos-delay="200"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-sm md:text-lg uppercase transition-all duration-500 ease-in-out"
           >
             <ExternalLink className="w-4 h-4" />
               Ver Proyecto
@@ -86,8 +85,7 @@ export default function ProjectDetail() {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-sm md:text-lg uppercase"
-            data-aos="fade-up" data-aos-delay="300"
+            className="inline-flex items-center gap-2 bg-primary text-white hover:bg-transparent hover:text-primary border border-transparent hover:border-primary px-6 py-3 rounded-lg font-semibold text-sm md:text-lg uppercase transition-all duration-500 ease-in-out" 
           >
             <Github className="w-4 h-4" />
               Ver Código
