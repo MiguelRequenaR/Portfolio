@@ -12,18 +12,13 @@ export default function ExperienceCard() {
       description: "Actualmente formo parte de la startup Grobles como desarrollador frontend, donde participo en el diseño y desarrollo de diversas soluciones digitales. Mi labor se centra en implementar interfaces intuitivas y dinámicas, optimizando la experiencia del usuario y aplicando metodologías ágiles para lograr productos de alta calidad.",
       date: "Enero 2024 - Actualidad"
     },
-    {
-      title: "Desarrollador de App Móviles - Grobles Studio",
-      description: "Formé parte del equipo de desarrollo de aplicaciones móviles en Grobles, donde contribuí a la creación de soluciones innovadoras para diversos clientes. Utilicé tecnologías como React Native y Expo para desarrollar aplicaciones móviles, enfocándome en la creación de productos intuitivos, con un diseño atractivo y un rendimiento estable. Esto me permitió desarrollar habilidades en el desarrollo de aplicaciones móviles y colaborar en proyectos de alto impacto.",
-      date: "Marzo 2024 - Enero 2025"
-    }
   ]
   return (
     <>
       {experiences.map((experience) => (
         <div className="hover:bg-[#1c1a19] rounded-xl p-5 transition-all duration-300 ease-in-out cursor-pointer gap-5 group my-10 space-y-3" data-aos="fade-up" key={experience.title}>
           <h3 className="text-white text-2xl font-bold">{experience.title}</h3>
-          <p className="text-gray-500 text-lg">{experience.description}</p>
+          <p className="text-gray-500 text-lg text-justify">{experience.description}</p>
           <span className="font-bold text-lg text-primary uppercase">{experience.date}</span>
         </div>
       ))}

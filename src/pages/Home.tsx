@@ -31,7 +31,7 @@ export default function Home() {
             SOFTWARE <span className="text-primary">ENGINEER</span>
           </h1>
           <p
-            className="text-xl text-white text-center lg:text-left mt-10"
+            className="text-xl text-white text-center lg:text-left mt-10 mx-4 md:mx-0"
           >
             Desarrollador FrontEnd con experiencia en el ciclo completo de desarrollos de soluciones digitales. Especializado en <span className="font-bold text-primary uppercase">TypeScript, VueJS, React, React Native, Vite, JavaScript,</span> para la implementación de interfaces responsivas e intuitivas.
           </p>
