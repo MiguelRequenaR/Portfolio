@@ -6,6 +6,9 @@ import tuTechoAhora from "../assets/tutechoahora.webp"
 import wildHorse from "../assets/wildhorse.webp"
 import andinaGroup from "../assets/andinagroup.webp"
 import landing360 from "../assets/landing360.webp"
+import industriaRlc from "../assets/industriarlc.webp"
+import rlcacademy from "../assets/rlcacademy.webp"
+import rlcacademyAula from "../assets/rlcacademyaula.webp"
 
 export interface Project {
   id: string;
@@ -179,6 +182,69 @@ export const projectsData: Project[] = [
     githubUrl: "https://github.com/Grobles-Inc/landing-cp360",
     year: 2025,
     time: "5 días",
+    category: "Landing Page"
+  },
+  {
+    id: "industria-rlc",
+    image: industriaRlc,
+    title: "Industria RLC",
+    description: "Landing Page para promocionar los servicios de la empresa Industria RLC.",
+    longDescription: "Industria RLC es una empresa que ofrece servicios de electricidad, construcción y acabados, sistemas de automatización, e ingeniería.",
+    technologies: ["NextJS", "React", "TailwindCSS", "Vercel", "AOS"],
+    features: [
+      "Sección de Inicio",
+      "Sección de Nosotros",
+      "Sección de Servicios",
+      "Sección de Experiencia",
+      "Sección de Productos"
+    ],
+    liveUrl: "https://www.industriarlc.com/",
+    githubUrl: "https://github.com/MiguelRequenaR/industria-rlc",
+    year: 2026,
+    time: "25 días",
+    category: "Landing Page"
+  },
+  {
+    id: "rlc-academy",
+    image: rlcacademy,
+    title: "RLC Academy",
+    description: "Landing Page para promocionar los cursos y capacitaciones de la empresa RLC Academy.",
+    longDescription: "RLC Academy es una plataforma web para la gestión de cursos y capacitaciones. La landing page fue desarrollada con el propósito de promocionar dichos cursos y atraer estudiantes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    technologies: ["NextJS", "React", "TailwindCSS", "Vercel", "AOS"],
+    features: [
+      "Sección de Inicio",
+      "Sección de Cursos",
+      "Sección de Nosotros",
+      "Sección de Blog",
+      "Sección de Certificados"
+    ],
+    liveUrl: "https://academia.industriarlc.com/",
+    githubUrl: "https://github.com/MiguelRequenaR/industria-rlc",
+    year: 2026,
+    time: "25 días",
+    category: "Landing Page"
+  },
+  {
+    id: "rlc-academy-aula",
+    image: rlcacademyAula,
+    title: "RLC Academy Aula Virtual",
+    description: "Sistema Web para la gestión de cursos y capacitaciones.",
+    longDescription: "RLC Academy Aula Virtual es un sistema web para la gestión de cursos y capacitaciones. El sistema web fue desarrollado con el propósito de gestionar los cursos y capacitaciones de la empresa. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    technologies: ["NextJS", "React", "TailwindCSS", "Vercel", "AOS"],
+    features: [
+      "Inicio de Sesión",
+      "Registro de Usuarios",
+      "Gestión por Roles",
+      "Gestión de Usuarios",
+      "Gestión de Cursos",
+      "Gestión de Invitaciones",
+      "Generación de Certificados",
+      "Gestión de Calificaciones"
+    ],
+    liveUrl: "https://aula.industriarlc.com/login",
+    githubUrl: "https://github.com/MiguelRequenaR/industria-rlc",
+    year: 2026,
+    time: "25 días",
     category: "Landing Page"
   },
 ]
