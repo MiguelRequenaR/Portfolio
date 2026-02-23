@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     image: ordee,
     title: "Ordee",
     description: "Aplicación móvil para la gestión de ordenes en restaurantes.",
-    longDescription: "Ordee es una aplicación móvil innovadora diseñada para revolucionar la gestión de órdenes en restaurantes. La aplicación permite a los meseros controlar las ordenes de los clientes. Con una interfaz moderna y funcionalidades avanzadas, Ordee mejora significativamente la experiencia tanto del cliente como del negocio.",
+    longDescription: "Implemente una aplicación móvil para la gestión de ordenes en restaurantes. La aplicación permite a los meseros controlar las ordenes de los clientes. Con una interfaz moderna y funcionalidades avanzadas, mejorando el proceso de gestión de ordenes y aumentando la eficiencia del restaurante.",
     technologies: ["React Native", "Node.js", "Supabase", "TypeScript"],
     features: [
       "Gestión de menús en tiempo real",
@@ -51,7 +51,7 @@ export const projectsData: Project[] = [
     image: vitalight,
     title: "Vitalight",
     description: "Página web Ecommerce de venta de productos naturales.",
-    longDescription: "Vitalight es una tienda online especializada en productos naturales y suplementos para el bienestar. La plataforma ofrece una amplia gama de productos orgánicos con información detallada sobre ingredientes y beneficios para la salud.",
+    longDescription: "Implemente una página web Ecommerce de venta de productos naturales. Ofreciendo una amplia gama de productos orgánicos con información detallada sobre ingredientes y beneficios para la salud.",
     technologies: ["React", "Node.js", "TailwindCSS", "Supabase", "AOS"],
     features: [
       "Catálogo de productos naturales",
@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
     image: nidoPerulina,
     title: "Nido Perulina",
     description: "Plataforma educativa para la gestión de centros de educación inicial.",
-    longDescription: "Nido Perulina es una plataforma educativa integral diseñada para la gestión completa de centros de educación inicial. La plataforma facilita la administración de estudiantes, profesores, actividades y comunicación con los padres de familia.",
+    longDescription: "Implemente una página web educativa para la Institución Educativa Nido Perulina. La página web facilita el acceso a la información de la institución y los servicios que ofrece.",
     technologies: ["Astro", "Node.js", "TailwindCSS", "Netlify", "AOS"],
     features: [
       "Sección de Inicio",
@@ -90,7 +90,7 @@ export const projectsData: Project[] = [
     image: mlStreaming,
     title: "MLStreaming",
     description: "MLStreaming es un sistema web que permite gestionar y comercializar cuentas de plataformas de streaming.",
-    longDescription: "MLStreaming es una plataforma innovadora que permite a los usuarios gestionar y comercializar cuentas de las principales plataformas de streaming. El sistema incluye herramientas de administración, seguimiento de uso y un marketplace integrado para la venta de cuentas.",
+    longDescription: "Implemente un sistema web para la gestión de cuentas de plataformas de streaming. El sistema incluye herramientas de administración, seguimiento de uso y un marketplace integrado para la venta de cuentas.",
     technologies: ["React", "ShadCN", "Supabase", "TailwindCSS"],
     features: [
       "Sistema de roles de usuarios",
@@ -110,7 +110,7 @@ export const projectsData: Project[] = [
     image: tuTechoAhora,
     title: "Tu Techo Ahora",
     description: "Plataforma web para promocionar propiedades inmobiliarias con panel de administración integrado.",
-    longDescription: "Tu Techo Ahora es una plataforma web especializada en la promoción de propiedades inmobiliarias. Incluye un panel de administración completo que permite gestionar propiedades, clientes potenciales y realizar seguimiento de ventas de manera eficiente.",
+    longDescription: "Implemente una página web para la promoción de propiedades inmobiliarias. Incluye un panel de administración completo que permite gestionar propiedades, clientes potenciales y realizar seguimiento de ventas de manera eficiente.",
     technologies: ["Astro", "TailwindCSS", "Vercel", "Cloudinary"],
     features: [
       "Sección de Inicio",
@@ -130,7 +130,7 @@ export const projectsData: Project[] = [
     image: wildHorse,
     title: "Wild Horse CarWash Mobile",
     description: "Landing Page para promocionar servicios de limpieza de autos y captar clientes.",
-    longDescription: "Wild Horse CarWash Mobile es una landing page optimizada para dispositivos móviles que promociona servicios de limpieza de autos. La página está diseñada para maximizar la conversión de visitantes en clientes mediante un diseño atractivo y un proceso de contacto simplificado.",
+    longDescription: "Implemente una landing page optimizada para dispositivos móviles que promociona servicios de limpieza de autos. La página está diseñada para maximizar la conversión de visitantes en clientes mediante un diseño atractivo y un proceso de contacto simplificado.",
     technologies: ["Astro", "Tailwind CSS", "Vercel", "AOS"],
     features: [
       "Sección de Inicio",
@@ -149,7 +149,7 @@ export const projectsData: Project[] = [
     image: andinaGroup,
     title: "Andina Group E.I.R.L.",
     description: "Landing Page de promoción de servicios generales para el hogar y negocios.",
-    longDescription: "Andina Group E.I.R.L. es una landing page corporativa que presenta los servicios generales ofrecidos para hogares y negocios. La página incluye información detallada sobre cada servicio, testimonios de clientes y un sistema de contacto directo.",
+    longDescription: "Implemente una landing page corporativa que presenta los servicios generales ofrecidos para hogares y negocios. La página incluye información detallada sobre cada servicio, testimonios de clientes y un sistema de contacto directo.",
     technologies: ["Astro", "Tailwind CSS", "Vercel", "AOS", "LucideIcons"],
     features: [
       "Sección de Inicio",
@@ -168,7 +168,7 @@ export const projectsData: Project[] = [
     image: landing360,
     title: "Sistema CP-360°",
     description: "Landing Page para promocionar el sistema CP-360°.",
-    longDescription: "Sistema CP-360° es una plataforma web para la gestión de proyectos de construcción. La landing page fue desarrollada con el propósito de promocionar dicho sistema y atraer clientes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    longDescription: "Implemente una landing page para la promoción del sistema CP-360°. La landing page fue desarrollada con el propósito de promocionar dicho sistema y atraer clientes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
     technologies: ["Astro", "Tailwind CSS", "Vercel", "AOS"],
     features: [
       "Sección de Inicio",
@@ -189,7 +189,7 @@ export const projectsData: Project[] = [
     image: industriaRlc,
     title: "Industria RLC",
     description: "Landing Page para promocionar los servicios de la empresa Industria RLC.",
-    longDescription: "Industria RLC es una empresa que ofrece servicios de electricidad, construcción y acabados, sistemas de automatización, e ingeniería.",
+    longDescription: "Implemente una landing page para la promoción de los servicios de la empresa Industria RLC. La landing page fue desarrollada con el propósito de promocionar dichos servicios y atraer clientes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
     technologies: ["NextJS", "React", "TailwindCSS", "Vercel", "AOS"],
     features: [
       "Sección de Inicio",
@@ -209,7 +209,7 @@ export const projectsData: Project[] = [
     image: rlcacademy,
     title: "RLC Academy",
     description: "Landing Page para promocionar los cursos y capacitaciones de la empresa RLC Academy.",
-    longDescription: "RLC Academy es una plataforma web para la gestión de cursos y capacitaciones. La landing page fue desarrollada con el propósito de promocionar dichos cursos y atraer estudiantes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    longDescription: "Implemente una landing page para la promoción de los cursos y capacitaciones de la empresa Industria RLC. La landing page fue desarrollada con el propósito de promocionar dichos cursos y atraer estudiantes potenciales. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
     technologies: ["NextJS", "React", "TailwindCSS", "Vercel", "AOS"],
     features: [
       "Sección de Inicio",
@@ -229,7 +229,7 @@ export const projectsData: Project[] = [
     image: rlcacademyAula,
     title: "RLC Academy Aula Virtual",
     description: "Sistema Web para la gestión de cursos y capacitaciones.",
-    longDescription: "RLC Academy Aula Virtual es un sistema web para la gestión de cursos y capacitaciones. El sistema web fue desarrollado con el propósito de gestionar los cursos y capacitaciones de la empresa. La página está diseñada para ser fácil de navegar y una buena experiencia de usuario.",
+    longDescription: "Implemente un sistema web para la gestión de cursos y capacitaciones. El sistema esta desarrollado para la gestión de cursos, usuarios, invitaciones, con multiples roles y funcionalidades para la gestión de la plataforma.",
     technologies: ["NextJS", "React", "TailwindCSS", "Vercel", "AOS"],
     features: [
       "Inicio de Sesión",
