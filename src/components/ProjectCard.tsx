@@ -23,7 +23,7 @@ export default function ProjectCard({limit}: ProjectCardProps) {
           >
             <img src={project.image} alt={project.title} className="w-full lg:w-52 rounded-xl mb-4 lg:mb-0" />
             <div className="space-y-2 text-white flex-1">
-              <h3 className="text-xl md:text-2xl text-primary font-bold">{project.title}</h3>
+              <h3 className="text-xl md:text-2xl text-primary font-bold uppercase">{project.title}</h3>
               <p className="text-lg">{project.description}</p>
             </div>
             <div className="ml-auto transform transition-transform duration-300 group-hover:-translate-y-2 group-hover:translate-x-2 hidden lg:block">

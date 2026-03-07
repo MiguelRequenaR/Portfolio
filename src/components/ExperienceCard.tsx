@@ -17,11 +17,11 @@ export default function ExperienceCard() {
     <>
       {experiences.map((experience) => (
         <div className="hover:bg-[#1c1a19] rounded-xl p-5 transition-all duration-300 ease-in-out cursor-pointer gap-5 group my-10 space-y-3" data-aos="fade-up" key={experience.title}>
-          <h3 className="text-white text-2xl font-bold">{experience.title}</h3>
+          <h3 className="text-white text-2xl font-bold uppercase">{experience.title}</h3>
           <p className="text-gray-500 text-lg text-justify">{experience.description}</p>
           <span className="font-bold text-lg text-primary uppercase">{experience.date}</span>
         </div>
-      ))}
+      ))}b
     </>
   )
 }
