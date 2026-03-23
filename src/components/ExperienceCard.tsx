@@ -21,7 +21,7 @@ export default function ExperienceCard() {
           <p className="text-gray-500 text-lg text-justify">{experience.description}</p>
           <span className="font-bold text-lg text-primary uppercase">{experience.date}</span>
         </div>
-      ))}b
+      ))}
     </>
   )
 }
